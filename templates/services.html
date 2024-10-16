@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Nuestros Servicios</h1>
+<div>
+    <h2>Consultoría</h2>
+    <img src="{{ url_for('static', filename='images/service1.jpg') }}" alt="Consultoría" style="width: 200px; height: auto;">
+    <img src="{{ url_for('static', filename='images/service2.jpg') }}" alt="Consultoría" style="width: 200px; height: auto;">
+    <p>Ofrecemos consultoría en diversas áreas.</p>
+    <button>Leer más</button>
+</div>
+<div>
+    <h2>Desarrollo Web</h2>
+    <p>Desarrollo de aplicaciones web a medida.</p>
+    <button>Leer más</button>
+</div>
+{% endblock %}

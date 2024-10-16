@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<div style="text-align: center; margin-top: 50px;">
+    <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo de Empresa" style="width: 150px; height: auto; margin-bottom: 20px;">
+    <h1>BINEVENIDOS A RRQ - SISTEM</h1>
+    <p>Ofrecemos servicios de calidad para impulsar tu negocio al siguiente nivel.</p>
+
+    <div style="margin-top: 30px;">
+        <h2>Testimonios</h2>
+        <p>"¡Excelente servicio!" - Cliente Feliz</p>
+    </div>
+
+    <div style="margin-top: 30px;">
+        <h2>Conéctate con nosotros</h2>
+        <button style="padding: 10px 20px; margin: 5px;">Facebook</button>
+        <button style="padding: 10px 20px; margin: 5px;">Twitter</button>
+    </div>
+</div>
+{% endblock %}
